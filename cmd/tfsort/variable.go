@@ -59,10 +59,6 @@ func (re TfFile) FilePos() []VariablePos {
 	return variablePos
 }
 
-func RewriteFile(pos VariablePos[]) {
-	
-}
-
 func readFile(path string) []string {
 	file, _ := os.Open(path)
 	defer file.Close()
