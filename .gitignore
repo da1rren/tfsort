@@ -41,4 +41,4 @@ go.work
 
 # End of https://www.toptal.com/developers/gitignore/api/go,linux
 
-tfsort
+__debug_bin*
